@@ -5,7 +5,7 @@ public class Tar6Tax {
 	public static void main(String[] args) {
 
 		double sal = (int) (Math.random() * 120_000);
-		sal = 2601;
+		// sal = 55000; // do this if you want to test a certain value
 		System.out.println("sal: " + sal); // the salaray
 
 		double tax = 0; // the tax
@@ -19,7 +19,7 @@ public class Tar6Tax {
 			if (sal <= 50_000) {
 				// if we are here they earn less than 50,000
 				// we take 20% on every shekel above 23,000
-				tax += (sal - 23_000) * 0.2; 
+				tax += (sal - 23_000) * 0.2;
 			} else {
 				// if we are here they earn more than 50,000
 				// we take 20% on the entire second grade
@@ -37,7 +37,7 @@ public class Tar6Tax {
 				}
 			}
 		}
-		
+
 		System.out.println("tax: " + tax);
 
 	}
