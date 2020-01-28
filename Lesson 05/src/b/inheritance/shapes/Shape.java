@@ -2,8 +2,18 @@ package b.inheritance.shapes;
 
 public class Shape {
 	
-	double area = -1;
+	private double area = -1;
 	
-	String color = "black" ;
+	private String color = "black" ;
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
+	
 
 }
