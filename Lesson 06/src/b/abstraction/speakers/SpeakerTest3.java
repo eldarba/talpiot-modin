@@ -7,7 +7,7 @@ public class SpeakerTest3 {
 	// get the speaker type from the user
 	public static void main(String[] args) {
 		Speaker speaker = null;
-		// prompt user for language (input using scanner)
+		// prompt user for language (input using scanner - text dialog)
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Language: heb/eng/fre");
 		String lang = sc.nextLine();

@@ -7,7 +7,7 @@ public class SpeakerTest2 {
 	// get the speaker type from the user
 	public static void main(String[] args) {
 		Speaker speaker = null;
-		// prompt user for language (input)
+		// prompt user for language (input using JOptionPane - graphic dialog)
 		String lang = JOptionPane.showInputDialog("Enter Language: heb/eng/fre");
 
 		switch (lang) {
