@@ -25,6 +25,11 @@ public class TestAnimals {
 				f.takeOff();
 				f.fly();
 			}
+
+			if (animals[i] instanceof Navigator) {
+				Navigator navigator = (Navigator) animals[i];
+				navigator.navigate();
+			}
 			System.out.println("============");
 		}
 	}
